@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zcanfes.github.io//al-folio/sitemap.xml
+Sitemap: https://zcanfes.github.io//sitemap.xml
