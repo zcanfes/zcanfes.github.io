@@ -24,24 +24,22 @@
   },
   "work": [
     {
-      "name": "Technical University of Munich",
-      "position": "Student Researcher - Thesis Student",
-      "location": "Munich, Germany",
-      "url": "",
-      "startDate": "2023-10-01",
-      "endDate": "",
-      "summary": "Conducting research in the field of computer vision, focusing on 3D and 4D generation.",
-      "highlights": ["Published research papers"]
-    }, 
-    {
       "name": "BMW",
       "position": "Research Internship",
       "location": "Munich, Germany",
       "url": "",
-      "startDate": "2024-04-15",
-      "endDate": "2024-10-15",
+      "startDate": "04.2024",
+      "endDate": "10.2024",
       "summary": "Conducted research on 3D generative models for automotive applications.",
-      "highlights": []
+    },
+    {
+      "name": "Technical University of Munich",
+      "position": "Student Researcher - Thesis Student",
+      "location": "Munich, Germany",
+      "url": "",
+      "startDate": "10.2023",
+      "endDate": "Present",
+      "summary": "Conducting research in the field of computer vision, focusing on 3D and 4D generation.",
     }
   ],
   "education": [
@@ -58,7 +56,7 @@
   "awards": [
     {
       "title": "DAAD-TEV Scholarship",
-      "date": "2022-10-01",
+      "date": "2022",
       "awarder": "Germany Academic Exchange Service (DAAD)",
       "url": "https://www.daad.de/en/",
       "summary": "The DAAD-TEV Scholarship for international Master's students."
@@ -67,19 +65,20 @@
   "certificates": [
     {
       "name": "London College of Music Examinations, Piano, Grade 7",
-      "date": "2018-06-01",
+      "date": "2018",
       "issuer": "University of West London"
     },
     {
       "name": "Zeugnis der Allgemeinen Hochschulreife (Abitur)",
-      "date": "2017-06-01",
+      "date": "2017",
       "issuer": "Federal Ministry of Education and Research, Germany",
       "grade": "1.4"
     },
     {
-      "name": "Deutsches Sprachdiplom der Kultusministerkonferenz, Stufe II",
-      "date": "2017-05-01",
-      "grade": "C1"
+      "name": "Deutsches Sprachdiplom Stufe II, C1",
+      "date": "2017",
+      "grade": "C1",
+      "issuer": "Goethe-Institut"
     }
   ],
   "publications": [

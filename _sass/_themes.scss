@@ -5,33 +5,33 @@
   color-scheme: light;
 
   /* Core colors */
-  --global-bg-color:          #FFF3E0;    // Peach Fuzz
-  --global-code-bg-color:     #FFF8E1;    // Pale peach
-  --global-text-color:        #4E342E;    // Dark brown
-  --global-text-color-light:  #7B5E57;    // Medium warm gray
-  --global-theme-color:       #FF7043;    // Coral accent
-  --global-hover-color:       #E64A19;    // Rich coral on hover
+  --global-bg-color:          #F1F6FF;    // New pale sky
+  --global-code-bg-color:     #F7FAFF;    // Slightly darker for code blocks
+  --global-text-color:        #2E3A46;    // Dark slate
+  --global-text-color-light:  #62727B;    // Medium slate
+  --global-theme-color:       #8E24AA;    // Distinctive purple
+  --global-hover-color:       #6A1B9A;    // Deeper purple hover
   --global-hover-text-color:  #FFFFFF;    // White on accent
-  --global-footer-bg-color:   #4E342E;    // Dark brown footer
-  --global-footer-text-color: #FFF3E0;    // Light peach text
-  --global-footer-link-color: #FF7043;    // Coral links
-  --global-distill-app-color: #7B5E57;    // Subtle warm gray
-  --global-divider-color:     rgba(0, 0, 0, 0.1);
+  --global-footer-bg-color:   #2E3A46;    // Dark slate footer
+  --global-footer-text-color: #F1F6FF;    // Pale sky text
+  --global-footer-link-color: #8E24AA;    // Purple links
+  --global-distill-app-color: #62727B;    // Subtle slate
+  --global-divider-color:     rgba(0, 0, 0, 0.05);
   --global-card-bg-color:     #FFFFFF;    // White cards
-  --global-highlight-color:   #D84315;    // Deep red highlights
+  --global-highlight-color:   #D500F9;    // Vivid magenta‑purple
 
   /* Back‑to‑top button */
   --global-back-to-top-bg-color: rgba(
-    #{color.channel(#4E342E, "red",   $space: rgb)},
-    #{color.channel(#4E342E, "green", $space: rgb)},
-    #{color.channel(#4E342E, "blue",  $space: rgb)},
-    0.4
+    #{color.channel(#2E3A46, "red",   $space: rgb)},
+    #{color.channel(#2E3A46, "green", $space: rgb)},
+    #{color.channel(#2E3A46, "blue",  $space: rgb)},
+    0.3
   );
   --global-back-to-top-text-color: #FFFFFF;
 
   /* Newsletter */
   --global-newsletter-bg-color:   #FFFFFF;
-  --global-newsletter-text-color: #4E342E;
+  --global-newsletter-text-color: #2E3A46;
 
   /* Tip / Warning / Danger blocks (unchanged) */
   --global-tip-block:        #42B983;
@@ -47,18 +47,13 @@
   --global-danger-block-text:   #600;
   --global-danger-block-title:  #C00;
 
-  /* Light/dark toggle and utility classes */
-  #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-  #light-toggle-dark   { display: none; }
-  #light-toggle-light  { display: none; }
-  .only-light          { display: block; }
-  .only-dark           { display: none; }
+  /* Light/dark toggle & utility */
+  #light-toggle-system { padding: 12px 0 0 10px; display: block; }
+  #light-toggle-dark, #light-toggle-light { display: none; }
+  .only-light { display: block; }
+  .only-dark  { display: none; }
 
-  /* Back‑to‑top positioning (unchanged) */
+  /* Back‑to‑top positioning */
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
@@ -75,34 +70,34 @@ html[data-theme="dark"] {
   color-scheme: dark;
 
   /* Core colors */
-  --global-bg-color:          #4E342E;    // Dark brown
-  --global-code-bg-color:     #3E2E28;    // Slightly lighter code bg
-  --global-text-color:        #FFF3E0;    // Light peach
-  --global-text-color-light:  #BCAAA4;    // Light warm slate
-  --global-theme-color:       #FFAB91;    // Soft peach accent
-  --global-hover-color:       #FFAB91;
-  --global-hover-text-color:  #4E342E;    // Dark brown on hover
-  --global-footer-bg-color:   #BCAAA4;    // Warm slate footer
-  --global-footer-text-color: #4E342E;    // Dark brown text
-  --global-footer-link-color: #FF7043;    // Coral links
-  --global-distill-app-color: #BCAAA4;
+  --global-bg-color:          #2E3A46;  // Dark slate
+  --global-code-bg-color:     #394547;  // Slate for code
+  --global-text-color:        #ECEFF1;  // Off‑white
+  --global-text-color-light:  #B0BEC5;  // Light grey
+  --global-theme-color:       #CE93D8;  // Soft lavender accent
+  --global-hover-color:       #AB47BC;  // Darker lavender on hover
+  --global-hover-text-color:  #000000;  // Black on accent
+  --global-footer-bg-color:   #455A64;  // Slate grey
+  --global-footer-text-color: #ECEFF1;  // Off‑white
+  --global-footer-link-color: #CE93D8;  // Lavender links
+  --global-distill-app-color: #B0BEC5;  // Light grey
   --global-divider-color:     #424242;
-  --global-card-bg-color:     #3E2E28;    // Dark card panels
+  --global-card-bg-color:     #394547;  // Dark card panels
 
   /* Back‑to‑top button */
   --global-back-to-top-bg-color: rgba(
-    #{color.channel(#FFF3E0, "red",   $space: rgb)},
-    #{color.channel(#FFF3E0, "green", $space: rgb)},
-    #{color.channel(#FFF3E0, "blue",  $space: rgb)},
+    #{color.channel(#ECEFF1, "red",   $space: rgb)},
+    #{color.channel(#ECEFF1, "green", $space: rgb)},
+    #{color.channel(#ECEFF1, "blue",  $space: rgb)},
     0.5
   );
-  --global-back-to-top-text-color: #4E342E;
+  --global-back-to-top-text-color: #2E3A46;
 
   /* Newsletter */
-  --global-newsletter-bg-color:   #BCAAA4;
-  --global-newsletter-text-color: #4E342E;
+  --global-newsletter-bg-color:   #455A64;
+  --global-newsletter-text-color: #ECEFF1;
 
-  /* Tip / Warning / Danger blocks (keep same or darken if you like) */
+  /* Tip / Warning / Danger blocks (unchanged) */
   --global-tip-block:        #42B983;
   --global-tip-block-bg:     #E2F5EC;
   --global-tip-block-text:   #215D42;
