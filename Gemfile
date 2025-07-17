@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem "jekyll_picture_tag"
+gem "mini_magick"    
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
