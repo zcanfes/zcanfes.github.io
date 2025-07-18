@@ -5,20 +5,20 @@
   color-scheme: light;
 
   /* Core colors */
-  --global-bg-color:          #F1F6FF;    // New pale sky
-  --global-code-bg-color:     #F7FAFF;    // Slightly darker for code blocks
-  --global-text-color:        #2E3A46;    // Dark slate
-  --global-text-color-light:  #62727B;    // Medium slate
-  --global-theme-color:       #8E24AA;    // Distinctive purple
-  --global-hover-color:       #6A1B9A;    // Deeper purple hover
-  --global-hover-text-color:  #FFFFFF;    // White on accent
-  --global-footer-bg-color:   #2E3A46;    // Dark slate footer
-  --global-footer-text-color: #F1F6FF;    // Pale sky text
-  --global-footer-link-color: #8E24AA;    // Purple links
-  --global-distill-app-color: #62727B;    // Subtle slate
+  --global-bg-color:          #FAFAFA;    // Soft neutral background
+  --global-code-bg-color:     #F5F5F5;    // Light gray for code blocks
+  --global-text-color:        #2E3A46;    // Dark slate for main text
+  --global-text-color-light:  #62727B;    // Medium slate for secondary text
+  --global-theme-color:       #8E24AA;    // Primary purple accent
+  --global-hover-color:       #6A1B9A;    // Darker purple on hover
+  --global-hover-text-color:  #FFFFFF;    // White text on hover
+  --global-footer-bg-color:   #2E3A46;    // Deep slate footer background
+  --global-footer-text-color: #FAFAFA;    // Light gray footer text
+  --global-footer-link-color: #8E24AA;    // Purple footer links
+  --global-distill-app-color: #62727B;    // Subtle slate for UI elements
   --global-divider-color:     rgba(0, 0, 0, 0.05);
   --global-card-bg-color:     #FFFFFF;    // White cards
-  --global-highlight-color:   #D500F9;    // Vivid magenta‑purple
+  --global-highlight-color:   #9C27B0;    // Magenta‑purple highlights
 
   /* Back‑to‑top button */
   --global-back-to-top-bg-color: rgba(
@@ -48,7 +48,7 @@
   --global-danger-block-title:  #C00;
 
   /* Light/dark toggle & utility */
-  #light-toggle-system { padding: 12px 0 0 10px; display: block; }
+  #light-toggle-system { padding-left: 10px; padding-top: 12px; display: block; }
   #light-toggle-dark, #light-toggle-light { display: none; }
   .only-light { display: block; }
   .only-dark  { display: none; }
@@ -70,19 +70,19 @@ html[data-theme="dark"] {
   color-scheme: dark;
 
   /* Core colors */
-  --global-bg-color:          #2E3A46;  // Dark slate
-  --global-code-bg-color:     #394547;  // Slate for code
-  --global-text-color:        #ECEFF1;  // Off‑white
-  --global-text-color-light:  #B0BEC5;  // Light grey
+  --global-bg-color:          #2E3A46;  // Dark slate background
+  --global-code-bg-color:     #394547;  // Slate for code blocks
+  --global-text-color:        #ECEFF1;  // Off‑white text
+  --global-text-color-light:  #B0BEC5;  // Light grey text
   --global-theme-color:       #CE93D8;  // Soft lavender accent
   --global-hover-color:       #AB47BC;  // Darker lavender on hover
-  --global-hover-text-color:  #000000;  // Black on accent
-  --global-footer-bg-color:   #455A64;  // Slate grey
-  --global-footer-text-color: #ECEFF1;  // Off‑white
-  --global-footer-link-color: #CE93D8;  // Lavender links
-  --global-distill-app-color: #B0BEC5;  // Light grey
+  --global-hover-text-color:  #000000;  // Black text on hover
+  --global-footer-bg-color:   #455A64;  // Slate grey footer
+  --global-footer-text-color: #ECEFF1;  // Off‑white footer text
+  --global-footer-link-color: #CE93D8;  // Lavender footer links
+  --global-distill-app-color: #B0BEC5;  // Light grey UI elements
   --global-divider-color:     #424242;
-  --global-card-bg-color:     #394547;  // Dark card panels
+  --global-card-bg-color:     #394547;  // Dark card backgrounds
 
   /* Back‑to‑top button */
   --global-back-to-top-bg-color: rgba(

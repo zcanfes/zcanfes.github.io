@@ -48,9 +48,27 @@
       "location": "Munich, Germany",
       "url": "https://www.tum.de/",
       "area": "Computer Science",
-      "studyType": "Master",
-      "startDate": "2022-10-01",
+      "studyType": "Master of Science",
+      "startDate": "10.2022",
       "endDate": ""
+    },
+    {
+      "institution": "Bogazici University",
+      "location": "Istanbul, Turkey",
+      "url": "https://cmpe.bogazici.edu.tr/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "09.2018",
+      "endDate": "06.2022"
+    },
+        {
+      "institution": "Bogazici University",
+      "location": "Istanbul, Turkey",
+      "url": "https://math.bogazici.edu.tr/en",
+      "area": "Mathematics",
+      "studyType": "Bachelor pf Science",
+      "startDate": "09.2017",
+      "endDate": "06.2022"
     }
   ],
   "awards": [
@@ -60,25 +78,6 @@
       "awarder": "Germany Academic Exchange Service (DAAD)",
       "url": "https://www.daad.de/en/",
       "summary": "The DAAD-TEV Scholarship for international Master's students."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "London College of Music Examinations, Piano, Grade 7",
-      "date": "2018",
-      "issuer": "University of West London"
-    },
-    {
-      "name": "Zeugnis der Allgemeinen Hochschulreife (Abitur)",
-      "date": "2017",
-      "issuer": "Federal Ministry of Education and Research, Germany",
-      "grade": "1.4"
-    },
-    {
-      "name": "Deutsches Sprachdiplom Stufe II, C1",
-      "date": "2017",
-      "grade": "C1",
-      "issuer": "Goethe-Institut"
     }
   ],
   "publications": [
@@ -143,6 +142,25 @@
       "language": "Turkish",
       "fluency": "Native",
       "icon": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "London College of Music Examinations, Piano, Grade 7",
+      "date": "2018",
+      "issuer": "University of West London"
+    },
+    {
+      "name": "Zeugnis der Allgemeinen Hochschulreife (Abitur)",
+      "date": "2017",
+      "issuer": "Federal Ministry of Education and Research, Germany",
+      "grade": "1.4"
+    },
+    {
+      "name": "Deutsches Sprachdiplom Stufe II, C1",
+      "date": "2017",
+      "grade": "C1",
+      "issuer": "Goethe-Institut"
     }
   ]
 }
