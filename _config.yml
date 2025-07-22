@@ -7,8 +7,7 @@ first_name: Zehranaz
 middle_name: 
 last_name: Canfes
 contact_note: # 
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a Master’s student in Computer Science at the Technical University of Munich, specializing in Computer Vision.
+description: I am a Master’s student in Computer Science at the Technical University of Munich, specializing in Computer Vision.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
