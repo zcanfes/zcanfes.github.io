@@ -39,8 +39,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-got-accepted-to-cvpr-2025",
           title: 'Our paper got accepted to CVPR 2025!',
           description: "",
-          section: "News",},{id: "news-our-project-twosquared-4d-reconstruction-from-2d-image-pairs-is-available-at-arxiv",
-          title: 'Our project TwoSquared:4D Reconstruction from 2D Image Pairs is available at arxiv!',
+          section: "News",},{id: "news-our-paper-got-accepted-to-3dv-2026-see-you-there",
+          title: 'Our paper got accepted to 3DV 2026! See you there!',
           description: "",
           section: "News",},{
         id: 'social-email',
