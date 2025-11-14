@@ -6,7 +6,7 @@
     "email": "zehranaz.canfes@tum.de",
     "phone": "",
     "url": "",
-    "summary": "A computer vision enthusiast with a passion for 3D and 4D generation. Currently pursuing a Master's degree in Computer Science at the Technical University of Munich, I am dedicated to advancing the field through research and practical applications.",
+    "summary": "A computer vision enthusiast with a passion for 3D/4D representations and reconstruction. Currently pursuing a Master's degree in Computer Science at the Technical University of Munich, I am dedicated to advancing the field through research and practical applications.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,7 +39,7 @@
       "url": "",
       "startDate": "10.2023",
       "endDate": "Present",
-      "summary": "Conducting research in the field of computer vision, focusing on 3D and 4D generation."
+      "summary": "Conducting research in the field of computer vision, focusing on representing and reconstructing 3D/4D data."
     }
   ],
   "education": [
@@ -50,7 +50,7 @@
       "area": "Computer Science",
       "studyType": "Master of Science",
       "startDate": "10.2022",
-      "endDate": ""
+      "endDate": "03.2026"
     },
     {
       "institution": "Bogazici University",
@@ -74,16 +74,23 @@
   "awards": [
     {
       "title": "DAAD-TEV Scholarship",
-      "date": "2022",
+      "date": "2022-2025",
       "awarder": "Germany Academic Exchange Service (DAAD)",
       "url": "https://www.daad.de/en/",
       "summary": "The DAAD-TEV Scholarship for international Master's students."
+    },
+    {
+      "title": "Undergraduate Scholarship",
+      "date": "2017-2021",
+      "awarder": "The Scientific and Technological Research Council of Turkey (TUBITAK)",
+      "url": "https://tubitak.gov.tr/en/scholarships/lisans-onlisans/burs-programlari/2205-undergraduate-scholarship-program",
+      "summary": "The TUBITAK Undergraduate Scholarship Program for undergraduate students in Turkey who study science fields."
     }
   ],
   "publications": [
     {
       "name": "TwoSquared: 4D Generation from 2D Image Pairs",
-      "publisher": "arXiv preprint arXiv:2504.12825",
+      "publisher": "International Conference on 3D Vision 2026 (3DV 2026)",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2504.12825",
       "summary": ""
@@ -92,7 +99,7 @@
       "name": "4Deform: Neural Surface Deformation for Robust Shape Interpolation",
       "publisher": "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR 2025)",
       "releaseDate": "2025",
-      "url": "",
+      "url": "https://arxiv.org/abs/2502.20208",
       "summary": ""
     },
     {
@@ -118,13 +125,10 @@
       "name": "Computer Vision"
     },
     {
+      "name": "3D Geometry"
+    },
+    {
       "name": "Python"
-    },
-    {
-      "name": "PyTorch"
-    },
-    {
-      "name": "TensorFlow"
     }
   ],
   "languages": [
