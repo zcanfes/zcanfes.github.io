@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Zehranaz Canfes",
-    "label": "Computer Vision M.Sc. Student and Researcher",
+    "label": "Computer Vision PhD Student",
     "image": "",
     "email": "zehranaz.canfes@tum.de",
     "phone": "",
     "url": "",
-    "summary": "A computer vision enthusiast with a passion for 3D/4D representations and reconstruction. Currently pursuing a Master's degree in Computer Science at the Technical University of Munich, I am dedicated to advancing the field through research and practical applications.",
+    "summary": "PhD student in the Computer Vision Group at TUM, supervised by Prof. Daniel Cremers. My research focuses on 3D and 4D reconstruction and generation, including neural implicit representations, non-rigid shape deformation, and 4D generation from images, with publications at CVPR, ICLR, 3DV, and WACV.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,22 +24,31 @@
   },
   "work": [
     {
+      "name": "Computer Vision Group - Technical University of Munich",
+      "position": "PhD Candidate",
+      "location": "Munich, Germany",
+      "url": "",
+      "startDate": "2026-07",
+      "endDate": "Present",
+      "summary": "Research on 3D/4D computer vision."
+    },
+    {
       "name": "BMW",
       "position": "Research Internship",
       "location": "Munich, Germany",
       "url": "",
-      "startDate": "04.2024",
-      "endDate": "10.2024",
+      "startDate": "2024-04",
+      "endDate": "2024-10",
       "summary": "Conducted research on 3D generative models for automotive applications."
     },
     {
       "name": "Technical University of Munich",
-      "position": "Student Researcher - Thesis Student",
+      "position": "Student Researcher",
       "location": "Munich, Germany",
       "url": "",
-      "startDate": "10.2023",
-      "endDate": "Present",
-      "summary": "Conducting research in the field of computer vision, focusing on representing and reconstructing 3D/4D data."
+      "startDate": "2023-10",
+      "endDate": "2026-03",
+      "summary": "Conducted research in the field of computer vision, focusing on representing and reconstructing 3D/4D data."
     }
   ],
   "education": [
@@ -49,8 +58,8 @@
       "url": "https://www.tum.de/",
       "area": "Computer Science",
       "studyType": "Master of Science",
-      "startDate": "10.2022",
-      "endDate": "03.2026"
+      "startDate": "2022-10",
+      "endDate": "2026-03"
     },
     {
       "institution": "Bogazici University",
@@ -58,8 +67,8 @@
       "url": "https://cmpe.bogazici.edu.tr/",
       "area": "Computer Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "09.2018",
-      "endDate": "06.2022"
+      "startDate": "2018-09",
+      "endDate": "2022-06"
     },
         {
       "institution": "Bogazici University",
@@ -67,8 +76,8 @@
       "url": "https://math.bogazici.edu.tr/en",
       "area": "Mathematics",
       "studyType": "Bachelor of Science",
-      "startDate": "09.2017",
-      "endDate": "06.2022"
+      "startDate": "2017-09",
+      "endDate": "2022-06"
     }
   ],
   "awards": [
@@ -119,16 +128,19 @@
   ],
   "skills": [
     {
-      "name": "Deep Learning"
+      "name": "Research Areas",
+      "icon": "fa-solid fa-cube",
+      "keywords": ["4D Reconstruction & Generation", "Non-Rigid Shape Deformation & Interpolation", "3D Generative Models", "Text/Image-Guided 3D Generation"]
     },
     {
-      "name": "Computer Vision"
+      "name": "Methods",
+      "icon": "fa-solid fa-diagram-project",
+      "keywords": ["Neural Implicit Representations (SDFs)", "Velocity Fields & Level-Set Methods", "Physics-Inspired Regularization", "Image-to-3D Generative Models"]
     },
     {
-      "name": "3D Geometry"
-    },
-    {
-      "name": "Python"
+      "name": "Tools",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "PyTorch"]
     }
   ],
   "languages": [

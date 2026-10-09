@@ -14,7 +14,7 @@ profile:
   #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,6 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Master’s student in Computer Science at the Technical University of Munich, specializing in Computer Vision. I’m currently writing my thesis with the [Computer Vision Group](https://cvg.cit.tum.de/publications). Prior to this, I earned a double major degree in Mathematics and Computer Engineering from Bogazici University in 2022.
+Hello, I'm Zehranaz, a PhD student at the [Computer Vision Group](https://cvg.cit.tum.de/) of the Technical University of Munich (TUM), supervised by [Prof. Daniel Cremers](https://scholar.google.com/citations?user=cXQciMEAAAAJ&hl=en). I received a Master's degree in Computer Science from [TUM](https://www.cit.tum.de/cit/startseite/) (2026) and a double-major Bachelor’s degree in Computer Engineering and Mathematics from [Bogazici University](https://bogazici.edu.tr/en) (2022).
 
-My research interests lie in 3D/4D generation and reconstruction, as well as in 3D shape analysis and matching.
+My research focuses on 3D and 4D reconstruction and generation: recovering how scenes and objects look and how they move and change over time. More broadly, I’m interested in improving machine understanding of spatial and temporal structures of the world. 
+
+If you are interested in collaborating or discussing research, feel free to [reach out]()!
